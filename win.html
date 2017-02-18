@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Windows风格的按钮</title>
+<style> 
+.button2 
+{ 
+border-right:1px solid buttonhighlight; 
+border-left:1px solid buttonshadow; 
+border-bottom:1px solid buttonhighlight; 
+border-top:1px solid buttonshadow 
+} 
+
+TD 
+{ 
+cursor: hand; font-size: 9pt;text-align: center; text-valign: middle 
+} 
+
+.handin 
+{ 
+height:18px; 
+width:2px; 
+border-left:1px solid buttonshadow; 
+border-right:1px solid buttonhighlight 
+} 
+
+.handout 
+{ 
+height:18px; 
+width:2px; 
+border-left:1px solid buttonhighlight; 
+border-right:1px solid buttonshadow; 
+} 
+.into 
+{ 
+width:100%; 
+border-right:1px solid buttonhighlight; 
+border-left:1px solid buttonshadow; 
+border-bottom:1px solid buttonhighlight; 
+border-top:1px solid buttonshadow 
+} 
+
+.outto,.button1 
+{ 
+background-color: buttonface; 
+background-repeat: repeat; 
+background-attachment: scroll; 
+border-left: 1px solid buttonhighlight; 
+border-right: 1px solid buttonshadow; 
+border-top: 1px solid buttonhighlight; 
+border-bottom: 1px solid buttonshadow; 
+background-position: 0%" 
+} 
+.button0 
+{ 
+
+} 
+</style> 
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#E0E0E0"> 
+<script> 
+function change_button(num) 
+{ 
+if(event.srcElement.tagName=="TD"&&event.srcElement.value=="button") 
+event.srcElement.className = "button"+num; 
+} 
+</script> 
+
+<div class="into" style="width: 100%; height: 25"> 
+<table class="outto" border="0" width="100%" height="25" cellspacing="1" onmouseover="change_button(1)" onmouseup="change_button(0)" onmousedown="change_button(2)" onmouseout="change_button(0)"> 
+<tr> 
+<td width="1%" height="19"><span class="handout"></span></td> 
+<td width="9%" height="19" value="button">打开</td> 
+<td width="1%" height="19"><span class="handin"></span></td> 
+<td width="9%" height="19" value="button">关闭</td> 
+<td width="1%" height="19"><span class="handin"></span></td> 
+<td width="9%" height="19" value="button">另存</td> 
+<td width="1%" height="19"><span class="handin"></span></td> 
+<td width="9%" height="19" value="button">刷新</td> 
+<td width="1%" height="19"><span class="handin"></span></td> 
+<td width="69%" height="19"></td> 
+</tr> 
+</table> 
+</div> 
+</body> 
+</html>

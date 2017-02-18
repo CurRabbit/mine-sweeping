@@ -1,0 +1,44 @@
+<!--
+	<table class ="mineMainTableame" cellspacing="0" cellpadding="0">
+		<tr class="game-menu">
+			<td colspan="3">
+				<span class="menu-btn ">游戏
+					<table class="game-menu-list " cellspacing="0" cellpadding="0">
+						<tr class="menu-option">
+							<td class="menu-option-state"></td>
+							<td class="menu-option">选项1</td>
+						</tr>
+						<tr  class="menu-option">
+							<td class="menu-option-state"></td>
+							<td class="menu-option">选项2</td>
+						</tr>
+					</table>
+				</span>
+				<span class="menu-btn">帮助</span>
+			</td>
+		</tr>
+		<tr class="game-infobar">
+			<td >
+				<div  class="mine-counter">
+					<span class="num-img"  ></span>
+					<span class="num-img"  ></span>
+					<span class="num-img"  ></span>
+				</div>
+			</td>
+			<td><button class="button-game"></button></td>
+			<td >
+				<div class="game-timer">
+					<span class="num-img"  ></span>
+					<span class="num-img"  ></span>
+					<span class="num-img"  ></span>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" >
+				<table class="mineArea" cellspacing="0" cellpadding="0">
+					
+				</table>
+			</td>
+		</tr>
+	</table>--!>

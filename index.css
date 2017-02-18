@@ -1,0 +1,122 @@
+.mineMainTableame{
+	border:4 double #666666;
+}
+
+
+.button-game{
+	background-image:url('res/BITMAP30.BMP');
+	width:28px;
+	height:28px;
+	background-position-y:24px;
+}
+
+.game-infobar{
+	border:0px;
+	background-color:#CCCCCC;
+}
+.game-infobar>td{
+	border:0px;
+	background-color:#CCCCCC;
+	
+}
+
+.game-timer{
+	padding-right:5px;
+	padding-left:10px;
+}
+.mine-counter{
+	padding-left:5px;
+	padding-right:10px;
+}
+.num-img{
+	width:13px;
+	height:23px;
+	float:left;
+	background-image:url('res/BITMAP20.BMP');
+}
+
+.mineArea td{
+	width:16px;
+	height:16px;
+	background-image:url('res/BITMAP10.BMP');
+	cursor:pointer;
+}
+
+.game-menu{	
+	background-color:#DDDDDD;
+	
+}
+.game-menu>td{
+	border:2px double #AAAAAA;
+	border-top:2px double #FFFFFF;
+	padding:1px;
+	padding-left:10px;
+	
+}
+.menu-btn-down{
+	border:1px solid #999999!important; 
+	border-top:2px solid #999999!important;
+	border-left:2px solid #999999!important;
+	color:#5B7AFA;
+	background-color:#EEEEEE;
+}
+.menu-btn{
+	padding-left:3px;
+	padding-right:7px;
+	font-size:14px;
+	display:inline-block;
+	cursor:pointer;
+	border: 2px solid #DDDDDD;
+	position:relative;
+	display:inline-block;
+	
+	-moz-border-radius: 3px;      /* Gecko browsers */
+    -webkit-border-radius: 3px;   /* Webkit browsers */
+    border-radius:3px;            /* W3C syntax */
+}
+
+.menu-btn:hover{
+	border: 1px solid #AAAAAA;
+	border-bottom:2px solid #AAAAAA!important;
+	border-right:2px solid #AAAAAA!important;
+	background-color:#EEEEEE;
+	color:#5B7AFA;
+}
+
+.game-menu-list{
+	display:none;
+	border:1px solid #AAAAAA;
+	position:absolute;
+	margin-left:0px;
+	z-index:1;
+	background-color:#EFF8FE/*#F5F1FC*/;
+	width:125px;
+	left:0px;
+	top:20px;
+}
+
+.menu-option:hover{
+	background-color:#1169EE;
+	/*border:1px solid #80C7F6;*/
+	color:#FFFFFF;
+}
+
+.menu-option-state{
+	width:18px;
+	border-right:1px solid #AAAAAA;
+}
+.menu-option-state>input[type=checkbox]{
+	display:none;
+}
+.menu-state-checked>input[type=checkbox]{
+	display:block!important;
+}
+
+.menu-option{
+	font-size:14px;
+	color:#000000;
+	padding:1px;
+	padding-left:3px;
+	cursor:pointer;
+	/*border:1px solid #DDDDDD;*/
+}
